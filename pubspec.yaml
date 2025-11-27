@@ -1,0 +1,55 @@
+name: s1lentz
+description: Aplicativo oficial da plataforma S1LENTZ desenvolvido por Vulthury.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI Components
+  flutter_svg: ^2.0.9
+  lucide_icons: ^0.257.0
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^10.7.0
+  animated_text_kit: ^4.2.2
+  
+  # Networking
+  http: ^1.2.0
+  web_socket_channel: ^2.4.0
+  
+  # State Management
+  provider: ^6.1.2
+  
+  # Storage
+  shared_preferences: ^2.3.2
+  
+  # Fonts & Styling
+  google_fonts: ^6.2.0
+  
+  # Internationalization
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Assets (imagens, fontes customizadas, etc)
+  assets:
+    - assets/images/
+  
+  # Se você tiver fontes customizadas:
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: fonts/CustomFont-Regular.ttf
+  #       - asset: fonts/CustomFont-Bold.ttf
+  #         weight: 700
